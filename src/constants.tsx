@@ -2,12 +2,9 @@ import {
   Wrench, 
   Droplets, 
   Fan, 
-  ThermometerSun, 
   Flame, 
   Clock, 
-  MapPin, 
-  Phone, 
-  Mail
+  MapPin
 } from "lucide-react";
 // IMPORTANTE: Añadimos 'type' aquí para que Vite sepa que son solo definiciones y no código JS real
 import type { ServiceItem, TestimonialItem, FaqItem, NavLink, BlogPost, ProjectItem } from "./types";
