@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Bot } from 'lucide-react';
 import { CONTACT_INFO } from '../constants';
 
+// Version corregida para Vercel
+
 interface Message {
   id: number;
   text: string;
