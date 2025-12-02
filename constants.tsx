@@ -2,12 +2,9 @@ import {
   Wrench, 
   Droplets, 
   Fan, 
-  ThermometerSun, 
   Flame, 
   Clock, 
-  MapPin, 
-  Phone, 
-  Mail
+  MapPin
 } from "lucide-react";
 import type { ServiceItem, TestimonialItem, FaqItem, NavLink, BlogPost, ProjectItem } from "./types";
 
