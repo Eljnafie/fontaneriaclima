@@ -17,5 +17,5 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "constants.tsx", "types.ts", "App.tsx"]
+  "exclude": ["node_modules", "dist", "constants.tsx", "types.ts", "index.tsx", "App.tsx"]
 }
