@@ -6,10 +6,7 @@ import {
   Clock, 
   MapPin
 } from "lucide-react";
-// IMPORTANTE: Añadimos 'type' aquí para que Vite sepa que son solo definiciones
 import type { ServiceItem, TestimonialItem, FaqItem, NavLink, BlogPost, ProjectItem } from "./types";
-
-// Version corregida para Vercel
 
 export const CONTACT_INFO = {
   phone: "+34 632 18 84 03",
