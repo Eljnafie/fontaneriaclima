@@ -1,18 +1,18 @@
-import type { LucideIcon } from 'lucide-react';
+import type { LucideIcon } from "lucide-react";
 
 export interface ServiceItem {
   id: string;
   title: string;
   description: string;
   icon: LucideIcon;
+  image: string;
 }
 
-export interface Testimonial {
+export interface TestimonialItem {
   id: number;
   name: string;
   location: string;
   text: string;
-  service: string;
   rating: number;
 }
 
@@ -21,14 +21,26 @@ export interface FaqItem {
   answer: string;
 }
 
-// Reemplazamos enum por const object para compatibilidad con erasableSyntaxOnly
-export const ServiceType = {
-  REPAIR: 'repair',
-  UNCLOG: 'unclog',
-  LEAK: 'leak',
-  AC_INSTALL: 'ac_install',
-  AC_MAINTENANCE: 'ac_maintenance',
-  BOILER: 'boiler'
-} as const;
+export interface NavLink {
+  name: string;
+  href: string;
+}
 
-export type ServiceType = typeof ServiceType[keyof typeof ServiceType];
+export interface BlogPost {
+  id: number;
+  title: string;
+  excerpt: string;
+  date: string;
+  image: string;
+  category: string;
+}
+
+export interface ProjectItem {
+  id: number;
+  title: string;
+  location: string;
+  description: string;
+  image: string;
+  category: string;
+  tags: string[];
+}
